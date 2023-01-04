@@ -1,6 +1,11 @@
-Hi Developers,
-I hope you're doing well. I have been learning React with @akshay saini (Namaste React).
-I am Sharing my journey here.
-I would love to connect people
-Twitter - https://twitter.com/RahulChouhan100
-Linkedin - https://www.linkedin.com/in/rahulchouhan100/
+🔭 I’m currently working on Personal Portfolio
+
+🌱 I’m currently learning React, Typescript
+
+👯 I’m looking to collaborate on Ecommerce Project
+
+🤝 I’m looking for help with Developer
+
+💬 Ask me about HTML and CSS
+
+📫 How to reach me rahulchouhan8991@gmail.com
