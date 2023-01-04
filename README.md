@@ -1,3 +1,5 @@
+👨‍💻 Hi Developer, I'm Rahul from india 	:india: 
+
 🔭 I’m currently working on Personal Portfolio
 
 🌱 I’m currently learning React, Typescript
@@ -8,4 +10,6 @@
 
 💬 Ask me about HTML and CSS
 
-📫 How to reach me rahulchouhan8991@gmail.com
+you can connect with me 
+Linkedin  - https://www.linkedin.com/in/rahulchouhan100/
+Twitter - https://www.twitter.com/rahulchouhan100
