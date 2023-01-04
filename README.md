@@ -1,4 +1,4 @@
-👨‍💻 Hi Developer, I'm Rahul from india 	:india: 
+👨‍💻 Hi Developer, I'm Rahul from india U+1F1F3
 
 🔭 I’m currently working on Personal Portfolio
 
