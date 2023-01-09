@@ -1,0 +1,43 @@
+Is JSX mandatory for React?
+- No, We can use React.CreateElement because JSX is converting in
+react.createElement 
+
+Is Es6 mandatory for React?
+-No
+
+How can I write comments in JSX?
+- it's a javascript so we can write comment
+in curly braces { // }
+
+What is react.fragement
+-React fragement is nothing but its like a empty tag
+we can't apply css for this
+
+What is virtual Dom?
+-It's a representation of a actual DOM.
+
+What is Reconciliation?
+- Reconciliation has a Diffing algorithm which find out the difference b/w the tree(dom or virtual dom).
+when It find out the difference. It will re-render only the portion which is required.
+
+why do we need keys?
+- suppose if we have a 4 div(1,2,3,4) after that we added one div(5,1,2,3,4).
+ so react doesn't know what order they were actually present.So It will re-render everything(5,1,2,3,4,).
+ if we use key which is unique so React will get to know number 5 div came up later So it will re-render only 5 which is required.
+
+what is props?
+-It's a properties.React Props are like function arguments in JavaScript and attributes in HTML.
+To send props into a component, use the same syntax as HTML attributes.
+
+can we use index as a key in react.
+- Yes, We can use but React uses key attribute to track the changes in the list.
+We might face following issues when we use index value as key attribute when creating a list:
+Performance Issues due to unnecessary re-renders.
+Issues in data mapping in case list items are sorted, filtered, or deleted.
+
+read more - https://dev.to/shiv1998/why-not-to-use-index-as-key-in-react-lists-practical-example-3e66#:~:text=SUMMARY,of%20sorting%2C%20filtering%20might%20happen.
+
+what is config Driven UI
+- eg: different data for different user 
+Read more : -https://iamrajatsingh1.medium.com/config-driven-ui-c8e93b730993
+
