@@ -1,6 +1,6 @@
 Is JSX mandatory for React?
 - No, We can use React.CreateElement because JSX is converting in
-react.createElement 
+react.createElement.JSX makes it easier to develop react application.
 
 Is Es6 mandatory for React?
 -No
