@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+    
+}
+.logo{
+  width: 100px;
+}
+section > ul > li {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding-right: 4rem;
+    font-size: 2.3rem;
+   
+}
+section > ul > li > a{
+    text-decoration: none;
+    color: #414555;
+    /* padding-right: 1rem; */
+
+    /* font-weight: 400; */
+
+}
+

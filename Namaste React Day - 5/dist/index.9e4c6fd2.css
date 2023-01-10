@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  margin-bottom: 2.5rem;
+  padding: 1%;
+  box-shadow: 0 1px 4px #00000029;
+}
+
+.card > img {
+  width: 25rem;
+}
+
+.card h2 {
+  margin: .6rem 0;
+  font-size: 2rem;
+}
+
+.card h3 {
+  color: gray;
+}
+
+.card h4 {
+  width: max-content;
+  color: #fff;
+  background-color: #04a604ed;
+  margin: 1rem 0;
+  padding: .5rem;
+}
+
+.main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 5px 6%;
+  display: flex;
+}
+
+.search-container {
+  width: 50%;
+  height: 10%;
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto 0;
+  display: flex;
+}
+
+.search-container > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 2.3rem;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1%;
+  display: flex;
+  box-shadow: 0 1px 4px #00000029;
+}
+
+.logo {
+  width: 100px;
+}
+
+section > ul > li {
+  padding-right: 4rem;
+  font-size: 2.3rem;
+  display: inline-block;
+}
+
+section > ul > li > a {
+  color: #414555;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
