@@ -49,3 +49,11 @@ A: The Difference is stated below:
 <TitleComponent/> : This value represents a Component that is basically returning Some JSX value. In simple terms TitleComponent a function that is returning a JSX value. A component is written inside the {<  />} expression.
 <TitleComponent></TitleComponent> : <TitleComponent /> and <TitleComponent></TitleComponent> are equivalent only when < TitleComponent /> has no child components. The opening and closing tags are created to include the child components.
 
+
+U can add this css
+.card h4{
+   text-overflow: ellipsis; /* enables ellipsis /
+   white-space: nowrap; / keeps the text in a single line /
+   overflow: hidden; / keeps the element from overflowing its parent */
+}
+
