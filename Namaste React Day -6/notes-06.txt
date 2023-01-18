@@ -1,0 +1,24 @@
+what is microservice and monolith?
+- Earlier we used to work only one project so all the dev working on Like 
+is a java app. so this is only one repo for this app so this is called monolith..
+If I want to change only one button so all apps need to be updated again so here micorservice
+comes in to picture Instead of having just one project we now have small-small component with differnt functionality. like api handled
+with js my notification handled with python and each project might be different port so they call each other from differnet url.
+
+
+why do we need use state?
+-  useState is hook and hooks  is just a norrmal function. useEffect has two parameten one is call back function and other is
+dependency []. suppose if i called api in fetch so every state change or props changes api will call again and again this is not good so we can use useState in this
+scenrio.IF i put [] empty dependency so it will call only once. we can use useState fo side effect.
+
+what is optional chaning?
+- optional chaining is a feature of javascript that allows you to access the properties of an object or array without having to
+check whether the object or array is null or undefined first. it is represented by(?.) can be used to concisely deeply nested
+properties without having to write a long chain of if statement for check for null or undefined values.
+what is shimmer ui ?	
+
+what is difference b/w js expression and js statement?
+what is conditional Rendering?
+what is cors?
+what is async await
+what is use of const json = await data.json();
