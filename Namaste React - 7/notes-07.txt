@@ -1,0 +1,11 @@
+added shimmer effect
+installed react router dom
+created the appRouter
+create hom about page with link(use child routes)
+Made a error page for routing errors
+created a restaurant page with dynamic restaurant ID
+Created a login page with dynamic Restaurant ID
+
+
+
+no restaurant found is pending ---- //

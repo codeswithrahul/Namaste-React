@@ -1,0 +1,81 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 98vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+   
+}
+.login-container > .login-box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2rem 5%;
+    height: max-content;
+    margin-top: 2rem;
+}
+.login-box > h1{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.login-box > h1 >span{
+    color: rgba(255, 0, 0, 0.708);
+}
+.logo{
+    width: 4rem;
+    text-align: center;
+}
+.img{
+    text-align: center;
+}
+.login-box input{
+    width: 80%;
+    margin-bottom:2rem;
+    padding: .8rem .4rem;
+    font-size: 1.5rem;
+    border: 1px solid gray;
+}
+.btn{
+    width: 80%;
+    padding: .3rem;
+    font-size: 2.3rem;
+    color: #fff;
+    font-weight: 400;
+    background-color:rgba(246, 20, 20, 0.886) ;
+    border: none;
+    border-radius: .5rem;
+
+}
+.social-icon{
+    width: 2.8rem;
+    margin-right: 1.1rem;
+}
+.continueWithSocial{
+    border: 1px solid rgb(133, 132, 132);
+    display: flex;
+    width: 82%;
+    align-items: center;
+    padding:.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 2.5rem;
+    border-radius: .5rem;
+    /* background-color: rgb(249, 104, 186); */
+    /* color: #fff; */
+}
+.continueWithSocial2{
+    padding: 1rem;
+}
+.or{
+    margin-top: 1rem;
+}
+
+#text{
+    color: blue;
+}
+.formik {
+
+}
+.input-password {
+    color: green !important;
+}
