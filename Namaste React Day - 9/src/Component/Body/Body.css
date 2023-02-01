@@ -1,0 +1,88 @@
+/* Restcard ------------------  */
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    
+}
+.card > img{
+  width: 25rem;
+}
+.card h2{
+    font-size: 1.5rem;
+    margin: .6rem 0;
+    
+}
+.card h3{
+    color: gray;
+}
+.card h4{
+    background-color: red;
+    width: max-content;
+    padding: .5rem;
+    background-color: rgba(4, 166, 4, 0.929);
+    color: #fff;
+    margin: 1rem 0;
+}
+.card p{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+
+/* body > main =============  */
+.main{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   margin: 2rem 0;
+   padding: 5 3%;
+   gap: 1rem;
+}
+
+/* search container ------------ */
+.search-container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    height: 10%;
+    margin-top: 3rem;
+    border-radius: 2.2rem;
+}
+.search-container > input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 1rem 1.8rem;
+    font-size: 2rem;
+    border-radius: 2.2rem;
+}
+.search-icon{
+    font-size: 2.3rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+/* -------------  */
+.food-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-details2{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-top: .8rem;
+  font-weight: 600;
+  color: rgba(146, 63, 63, 0.998);
+  gap: .5rem;
+}
+hr{
+    color: rgb(172, 149, 149);
+}

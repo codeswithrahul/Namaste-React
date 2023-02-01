@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
+    
+}
+.img-logo{
+  width: 4rem;
+}
+section > ul > li {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding-right: 4rem;
+    font-size: 2.3rem;
+   
+}
+section > ul > li > a{
+    text-decoration: none;
+    color: #414555;
+    /* padding-right: 1rem; */
+
+    /* font-weight: 400; */
+
+}
+.logInBtn{
+    color: red;
+    background-color: rgb(14, 188, 14);
+    padding: .7rem 1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+when and why do we need lazy() loading?
+
+--if we're building large web apps so we need chunking because
+if I wrap all the code in to index.js file so it will take so
+much time to load and it makes our apps heavy so that's why 
+we need lazy loading things. so we can separate other component in to
+another file.
+
+
+What is suspense?
+-- When you're loading component in demand react tries to suspend it.
+Suspense takes care everything it will until the promise resolved.
+
+Advantages and disadvantages of using this code spillitng
+pattern?
+
+- so much advantages like if you're building large apps like
+MMT so user comes in to website with intent like flight bookin. It might
+possible to user will visit in to cab or buses section so Instead of render every
+-thing we will do on demand loading.
+
+When do we and why do we need suspense?
+-- when we're creating lazy loading. we need suspense because at the initial
+render index.js file will load right? so in this index.js file has not instamart.js
+file so first time it will give error so that's we need suspense.
+
+coding -
+created out custom Hook
+Tried out lazy and suse
+cleaned the code !
+
+
+----------working on restMenu -----------
