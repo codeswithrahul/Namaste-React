@@ -1,0 +1,132 @@
+.menu-container{
+    background-color: #171A29;
+    /* background-color: blueviolet; */
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+}
+
+/* first container --------------------  */
+.first-container{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-basis: 60%;
+}
+.first-container > .img-container{
+
+
+}
+.first-container > .img-details-container {
+    margin-left: 4rem;
+}
+.first-container > .img-details-container > h2{
+   font-size: 3rem;   
+   color: #fff;
+   
+}
+.first-container > .img-details-container > h3{
+    font-size: 1.8rem;  
+    line-height: 3rem;
+    font-weight: 400;  
+    color: #8F9098; 
+ }
+ .first-container > .img-details-container > h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #8F9098; 
+ }
+
+.menu-img{
+    height: 15rem;
+    width: 100%;
+}
+
+.rating-time-cost-container{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    /* text-align: center; */
+    gap: 2rem;
+}
+.rating,.time{
+    /* border: 1px solid red; */
+    border-right: 1.5px solid rgb(100, 99, 99);
+    line-height: 2rem;
+    color: #fff;
+}
+.cost{
+    color: #fff;
+    line-height: 2rem;
+}
+.rating,.time,.cost{
+
+}
+.rating span:nth-child(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 4rem;
+}
+.time span:nth-child(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+.cost span:nth-child(1){
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+.rating span:nth-child(3),.time span:nth-child(3),.cost span:nth-child(3){
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.time{}
+.cost{}
+/* first container end------------------  */
+
+
+/* second container start -----------------------------------------  */
+
+.second-container{
+    flex-basis: 40%;
+    min-width: 40%;
+}
+.offers-container{
+    border: 1px solid rgb(142, 140, 140);
+    color: blue;
+    padding: 2rem;
+    position: relative;
+}
+.offers-container p:nth-child(1){
+    color: #ffffff ;
+    position: absolute;
+    top: -1.2rem;
+    /* top: 0; */
+    left: -1rem;
+    /* left:0; */
+    font-size: 2rem;
+    background-color: #171A29;
+    padding: 0 2rem;
+   
+
+}
+.offers-container > p:nth-child(2){
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 3rem;
+    
+}
+.offers-container p:nth-child(4){
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #fff;
+    
+}
+.coupon-icon{
+    margin-right: 1.5rem;
+}

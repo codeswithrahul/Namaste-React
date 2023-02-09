@@ -1,0 +1,29 @@
+.instamart-container{
+    border: 1px solid rgb(61, 60, 60);
+    margin: 2rem;
+    width: 70%;
+    padding: 1rem 3rem;
+}
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-container > h2 {
+    font-size: 2.6rem;
+}
+.instamart-container > div > p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(106, 105, 105);
+    line-height: 2.3rem;
+}
+.title-container > button > .arrowDown{
+    width: 2rem;
+}
+.title-container > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
